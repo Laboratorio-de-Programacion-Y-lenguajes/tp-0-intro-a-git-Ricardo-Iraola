@@ -37,18 +37,17 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def agregar_definicion_alumno():
+def definicion_virtualenv():
     """
     EJEMPLO: El alumno debe renombrar esta función y completar su término.
     """
-    termino = "ORM"  # Reemplazar con el término asignado o elegido
-    definicion = "Object-Relational Mapping. Técnica para convertir datos entre sistemas incompatibles usando OOP."
-    print(f"[NUEVO] {termino}: {definicion}")
+    termino = "VENV"  # Reemplazar con el término asignado o elegido
+    definicion = "Virtual-Enviroments. Es una herramienta que permite crear entornos aislados de Python para gestionar dependencias de manera independiente."
+    print(f"[Virtual-Enviroments] {termino}: {definicion}")
 
 
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
+    definicion_virtualenv()
 
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
