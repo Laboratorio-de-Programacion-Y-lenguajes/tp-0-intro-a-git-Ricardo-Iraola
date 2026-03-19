@@ -30,13 +30,6 @@ def glosario_inicial():
         print(f"-> {termino}: {definicion}")
 
 
-# --- TAREA PARA EL ALUMNO ---
-# Instrucciones:
-# 1. Crea una rama 'feature-tu-termino'
-# 2. Crea una función nueva siguiendo el ejemplo de abajo
-# 3. Llámala dentro del bloque 'if __name__ == "__main__":'
-
-
 def definicion_virtualenv():
     """
     EJEMPLO: El alumno debe renombrar esta función y completar su término.
